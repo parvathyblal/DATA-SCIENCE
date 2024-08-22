@@ -1,0 +1,46 @@
+import numpy as np
+ar1=np.array([[2,4],[3,6]])
+ar2=np.array([[1,9],[8,5]])
+print("matrix addition")
+print(np.add(ar1,ar2))
+print("matrix substraction")
+print(np.subtract(ar1,ar2))
+print("Multiply the individual elements")
+print(np.multiply(ar1,ar2))
+print("Divide elements of matrix")
+print(np.divide(ar1,ar2))
+print("Matrix multiplication")
+print(np.dot(ar1,ar2))
+print("Transpose of matrix1")
+print(ar1.transpose())
+print("Transpose of matrix2")
+print(ar2.transpose())
+print("sum of diagonal elements")
+print(np.trace(ar1))
+print(np.trace(ar2))
+------------------------------output-------------------------
+matrix addition
+[[ 3 13]
+ [11 11]]
+matrix substraction
+[[ 1 -5]
+ [-5  1]]
+Multiply the individual elements
+[[ 2 36]
+ [24 30]]
+Divide elements of matrix
+[[2.         0.44444444]
+ [0.375      1.2       ]]
+Matrix multiplication
+[[34 38]
+ [51 57]]
+Transpose of matrix1
+[[2 3]
+ [4 6]]
+Transpose of matrix2
+[[1 8]
+ [9 5]]
+sum of diagonal elements
+8
+6
+PS C:\Users\mlm> 
