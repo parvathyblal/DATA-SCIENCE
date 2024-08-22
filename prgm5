@@ -1,0 +1,22 @@
+import numpy as np
+ar=np.array([[2,5],[7,8]])
+print("Determinant")
+print(np.linalg.det(ar))
+print("Inverse")
+print(np.linalg.inv(ar))
+print("Rank of matrix")
+print(np.linalg.matrix_rank(ar))
+print("Transform matrix into 1D array")
+print(ar.flatten())
+-----------------------output--------------------------
+PS C:\Users\mlm> & "C:/Program Files/Python312/python.exe" c:/Users/mlm/Desktop/prgm4.py
+Determinant
+-18.999999999999996
+Inverse
+[[-0.42105263  0.26315789] 
+ [ 0.36842105 -0.10526316]]
+Rank of matrix
+2
+Transform matrix into 1D array
+[2 5 7 8]
+PS C:\Users\mlm> 
