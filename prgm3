@@ -1,0 +1,36 @@
+import numpy as np
+ar=np.array([[2,4,6,8],[1,3,5,7],[3,6,9,12],[1,5,8,10]])
+print("Display all the elements:\n",ar[0:4,0:4])
+print("Display elements excluding the first row:\n",ar[1:,:])
+print("Display elements excluding the last column:\n",ar[:,0:3])
+print("Display all the elements of 1st and 2nd column in 2nd and 3rd row:\n",ar[1:3,0:2])
+print("Display the elements of 2nd and 3rd column:\n",ar[:,1:3])
+print("Display the 2nd and 3rd elements of 1st row:\n",ar[0,1:3])
+---------------OUTPUT----------------------
+C:\Users\mlm\pythonProject2\venv\Scripts\python.exe C:\Users\mlm\pythonProject2\prgm3.py 
+Display all the elements:
+ [[ 2  4  6  8]
+ [ 1  3  5  7]
+ [ 3  6  9 12]
+ [ 1  5  8 10]]
+Display elements excluding the first row:
+ [[ 1  3  5  7]
+ [ 3  6  9 12]
+ [ 1  5  8 10]]
+Display elements excluding the last column:
+ [[2 4 6]
+ [1 3 5]
+ [3 6 9]
+ [1 5 8]]
+Display all the elements of 1st and 2nd column in 2nd and 3rd row:
+ [[1 3]
+ [3 6]]
+Display the elements of 2nd and 3rd column:
+ [[4 6]
+ [3 5]
+ [6 9]
+ [5 8]]
+Display the 2nd and 3rd elements of 1st row:
+ [4 6]
+
+Process finished with exit code 0
