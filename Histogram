@@ -1,0 +1,20 @@
+Histogram
+
+code:
+
+import matplotlib.pyplot as plt
+import numpy as np
+tree_heights = [
+    32, 45, 50, 38, 55, 60, 47, 52, 48, 53,
+    41, 37, 50, 62, 59, 65, 40, 42, 54, 51,
+    58, 47, 44, 66, 71, 49, 60, 64, 53, 59
+]
+bin_size = 5
+min_height = min(tree_heights)
+max_height = max(tree_heights)
+bins = np.arange(min_height, max_height + bin_size, bin_size)
+plt.hist(tree_heights, bins=bins, edgecolor='black', alpha=0.7)
+plt.xlabel('Tree Height (inches)')
+plt.ylabel('Frequency')
+plt.title('Histogram of Tree Heights')
+plt.show()
